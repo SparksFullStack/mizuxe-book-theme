@@ -36,6 +36,17 @@ body {
   #authors .card:hover .fab {
     color: white; }
 
+.cd-color-1:hover {
+  background-color: #3292a6; }
+  .cd-color-1:hover .card-body h3, .cd-color-1:hover .card-body p {
+    color: #fff !important; }
+
+.cd-color-2:hover {
+  background-color: #fff !important;
+  border: 1px solid #3292a6; }
+  .cd-color-2:hover .card-body h3, .cd-color-2:hover .card-body p {
+    color: #3292a6 !important; }
+
 @media (max-width: 768px) {
   #showcase {
     min-height: 500px; }
