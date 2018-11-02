@@ -7,8 +7,9 @@ body {
 
 .navbar {
     box-shadow: 2px 2px 5px $primary;
-    opacity: 0.9;
     color: $primary;
+    background-color: white;
+    opacity: 0.9;
 
     .nav-item {
         font-size: 1.4rem;
@@ -17,13 +18,6 @@ body {
 }
 
 
-// .header {
-//     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/mountains.jpg);
-//     background-size: cover;
-//     background-position: center;
-//     height: 100vh;
-//     background-attachment: fixed;
-// }
 
 #showcase {
     position: relative;
