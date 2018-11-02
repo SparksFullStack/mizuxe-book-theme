@@ -40,6 +40,12 @@ body {
     }
 }
 
+.info-header {
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px solid #ddd;
+}
+
 
 @media(max-width: 768px){
     #showcase {
@@ -54,3 +60,4 @@ body {
         margin-bottom: 1rem;
     }
 }
+
