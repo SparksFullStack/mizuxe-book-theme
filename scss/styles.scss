@@ -46,6 +46,22 @@ body {
     border-bottom: 1px solid #ddd;
 }
 
+#authors {
+    img {
+        margin-top: -50px;
+        border-radius: 50%;
+    }
+
+    .card:hover {
+        background: $primary;
+        color: #fff;
+
+        .fab {
+            color: white;
+        }
+    }
+}
+
 
 @media(max-width: 768px){
     #showcase {
