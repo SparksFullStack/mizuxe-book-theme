@@ -16,3 +16,26 @@ body {
     }
 }
 
+
+// .header {
+//     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/mountains.jpg);
+//     background-size: cover;
+//     background-position: center;
+//     height: 100vh;
+//     background-attachment: fixed;
+// }
+
+#showcase {
+    position: relative;
+    background: url(../img/mountains.jpg);
+    min-height: 600px;
+    
+    .primary-overlay {
+        background: $primary-overlay;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+}
