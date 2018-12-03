@@ -1,2 +1,2 @@
 # mizuxe-book-theme
-A web page I developed using Bootstrap
+A web page I developed for a fictional self-help book utilitzing styling technologies.
